@@ -1,0 +1,9 @@
+Type        Size                            Range                                                                                               Example
+bool        1 byte (8 bits)                 True, False                                                                                         a = True
+int         Varies (platform-dependent)     Unlimited (Python integers are of arbitrary precision, limited by memory)                           b = 1000
+float       8 bytes (64 bits)               ±5.0E-324 to ±1.7E308, 15-17 decimal digits precision                                               c = 3.14159
+complex     16 bytes (128 bits)             Real and imaginary parts can be any floating-point number                                           d = 3 + 4j
+str         Varies (depends on length)      Unlimited, limited by memory (each character is typically 1 to 4 bytes, depending on encoding)      e = "Hello World!"
+bytes       Varies (depends on length)      Same as str but for binary data (immutable sequence of bytes)                                       f = b"Hello"
+bytearray   Varies (depends on length)      Same as bytes, but mutable sequence of bytes                                                        g = bytearray([65, 66, 67])
+NoneType    1 byte (8 bits)                 Represents the absence of a value or a null value                                                   h = None

@@ -1,0 +1,8 @@
+Type        Size                        Range                                                                                   Example
+undefined   4 bytes (32 bits)           Represents a variable that has been declared but not assigned a value.                  let a; // a is undefined
+null        4 bytes (32 bits)           Represents a non-existent or invalid object reference.                                  let b = null;
+boolean     4 bytes (32 bits)           true, false                                                                             let c = true;
+number      8 bytes (64 bits)           Integer and floating-point: ±5.0E-324 to ±1.7E308, with 15-17 decimal digits precision  let d = 25;
+string      Varies (Depends on length)  Unlimited, each character takes 2 bytes (UTF-16 encoding)                               let e = "Hello World!";
+symbol      4 bytes (32 bits)           Unique identifiers used as keys for object properties                                   let f = Symbol('id');
+bigint      Varies (depending on value) Arbitrary precision integers, greater than the safe integer range for number            let g = 1234567890123456789012345678901234567890n;

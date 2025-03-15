@@ -1,0 +1,16 @@
+Type        Size                    Range                                                                   Example
+bool        1 byte (8 bits)         true, false                                                             var a bool = true
+rune        4 bytes (32 bits)       Unicode code points (0 to 1,114,111); alias for int32                   var b rune = 'A'
+int8        1 byte (8 bits)         Signed: -128 to 127                                                     var c int8 = -100
+int16       2 bytes (16 bits)       Signed: -32,768 to 32,767                                               var d int16 = 1000
+int32       4 bytes (32 bits)       Signed: -2,147,483,648 to 2,147,483,647                                 var e int32 = 100000
+int64       8 bytes (64 bits)       Signed: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807         var f int64 = 100000000000
+byte        1 byte (8 bits)         Unsigned: 0 to 255                                                      var g byte = 255
+uint8       1 byte (8 bits)         Unsigned: 0 to 255                                                      var h uint8 = 200
+uint16      2 bytes (16 bits)       Unsigned: 0 to 65,535                                                   var i uint16 = 50000
+uint32      4 bytes (32 bits)       Unsigned: 0 to 4,294,967,295                                            var j uint32 = 4000000000
+uint64      8 bytes (64 bits)       Unsigned: 0 to 18,446,744,073,709,551,615                               var k uint64 = 1000000000000000000
+float32     4 bytes (32 bits)       ±1.5 x 10^−45 to ±3.4 x 10^38, 6-9 decimal digits precision             var l float32 = 3.14
+float64     8 bytes (64 bits)       ±5.0 x 10^−324 to ±1.8 x 10^308, 15-16 decimal digits precision         var m float64 = 3.141592653589793
+complex64   8 bytes (64 bits)       Real and imaginary parts are float32 values (±3.4E38)                   var n complex64 = 1 + 2i
+complex128  16 bytes (128 bits)     Real and imaginary parts are float64 values (±1.8E308)                  var o complex128 = 1 + 2i

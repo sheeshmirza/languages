@@ -1,0 +1,9 @@
+Type        Size                        Range                                                               Example
+boolean     1 bit (but often 1 byte)    true, false                                                         boolean a = true;
+byte        1 byte (8 bits)             Signed: -128 to 127                                                 byte b = 100;
+char        2 bytes (16 bits)           Unicode: \u0000 to \uFFFF (0 to 65,535)                             char c = 'A';
+short       2 bytes (16 bits)           Signed: -32,768 to 32,767                                           short d = 500;
+int         4 bytes (32 bits)           Signed: -2,147,483,648 to 2,147,483,647                             int e = 10000;
+long        8 bytes (64 bits)           Signed: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807     long f = 10000000000L;
+float       4 bytes (32 bits)           ±1.4E-45 to ±3.4E38, 6-9 decimal digits precision                   float g = 3.14f;
+double      8 bytes (64 bits)           ±4.9E-324 to ±1.8E308, 15-16 decimal digits precision               double h = 3.14159265359;

@@ -1,0 +1,15 @@
+Type        Size                    Range                                                                                                                   Example
+bool        1 byte (8 bits)         true, false                                                                                                             let a: bool = true;
+char        4 bytes (32 bits)       Unicode range: '\u{0000}' to '\u{10FFFF}'                                                                               let b: char = 'A';
+i8          1 byte (8 bits)         Signed: -128 to 127                                                                                                     let c: i8 = 100;
+i16         2 bytes (16 bits)       Signed: -32,768 to 32,767                                                                                               let d: i16 = -20000;
+i32         4 bytes (32 bits)       Signed: -2,147,483,648 to 2,147,483,647                                                                                 let e: i32 = 1000000;
+i64         8 bytes (64 bits)       Signed: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807                                                         let f: i64 = 123456789;
+i128        16 bytes (128 bits)     Signed: -170,141,183,460,469,231,731,687,303,715,884,105,728 to 170,141,183,460,469,231,731,687,303,715,884,105,727     let g: i128 = -987654321;
+u8          1 byte (8 bits)         Unsigned: 0 to 255                                                                                                      let h: u8 = 255;
+u16         2 bytes (16 bits)       Unsigned: 0 to 65,535                                                                                                   let i: u16 = 50000;
+u32         4 bytes (32 bits)       Unsigned: 0 to 4,294,967,295                                                                                            let j: u32 = 1000000;
+u64         8 bytes (64 bits)       Unsigned: 0 to 18,446,744,073,709,551,615                                                                               let k: u64 = 123456789;
+u128        16 bytes (128 bits)     Unsigned: 0 to 340,282,366,920,938,463,463,374,607,431,768,211,455                                                      let l: u128 = 9876543210;
+f32         4 bytes (32 bits)       ±1.4E-45 to ±3.4E38, 6-9 decimal digits precision                                                                       let m: f32 = 3.14;
+f64         8 bytes (64 bits)       ±5.0E-324 to ±1.7E308, 15-17 decimal digits precision                                                                   let n: f64 = 3.141592653589793;

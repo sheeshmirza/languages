@@ -1,0 +1,15 @@
+Type                Size                Range                                                                   Example
+bool                1 byte (8 bits)     true, false                                                             bool a = true;
+char                1 byte (8 bits)     Signed: -128 to 127                                                     char b = 'A';
+short               2 bytes (16 bits)   Signed: -32,768 to 32,767                                               short c = 1000;
+int                 4 bytes (32 bits)   Signed: -2,147,483,648 to 2,147,483,647                                 int d = 10000;
+long                4, 8 bytes          Signed: -2,147,483,648 to 9,223,372,036,854,775,807 (varies by arch)    long e = 1000000000L;
+long long           8 bytes (64 bits)   Signed: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807         long long f = 123456789012345;
+unsigned char       1 byte (8 bits)     Unsigned: 0 to 255                                                      unsigned char g = 200;
+unsigned short      2 bytes (16 bits)   Unsigned: 0 to 65,535                                                   unsigned short h = 50000;
+unsigned int        4 bytes (32 bits)   Unsigned: 0 to 4,294,967,295                                            unsigned int i = 200000;
+unsigned long       4, 8 bytes          Unsigned: 0 to 18,446,744,073,709,551,615 (varies by arch)              unsigned long j = 1000000L;
+unsigned long long  8 bytes (64 bits)   Unsigned: 0 to 18,446,744,073,709,551,615                               unsigned long long k = 1000000000000000000;
+float               4 bytes (32 bits)   ±1.4E-45 to ±3.4E38, 7 decimal digits precision                         float l = 3.14f;
+double              8 bytes (64 bits)   ±4.9E-324 to ±1.8E308, 15-16 decimal digits precision                   double m = 3.141592653589793;
+long double         8, 12, or 16 bytes  Extended precision (platform-dependent)                                 long double n = 3.141592653589793238L;
